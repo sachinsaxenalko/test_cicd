@@ -4,6 +4,6 @@ build:
     script:
         - echo "Test Sachin First CICD"
         - echo "Test 2 Sachin"
-        - sudo apt install python3-pip
+        - apt install python3-pip
         - pip install -r requirements.txt
         - python3 add_rnd.py
