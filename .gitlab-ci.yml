@@ -1,0 +1,6 @@
+
+#Build Stage
+build:
+    script:
+        - echo "Test Sachin First CICD"
+        - echo "Test 2 Sachin"
