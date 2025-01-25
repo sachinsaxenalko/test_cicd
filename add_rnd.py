@@ -70,7 +70,8 @@ def get_machine_id():
         return None
 
 if __name__ == "__main__":
-    while True:
+    cnt_count = 0
+    while cnt_count < 20:
         time.sleep(2)
         machine_id = socket.gethostname()
         now = datetime.now()
@@ -89,3 +90,4 @@ if __name__ == "__main__":
             write_to_file(filename,data)
         else:
             print("Could not determine machine ID.")
+        cnt_count = cnt_count + 1
