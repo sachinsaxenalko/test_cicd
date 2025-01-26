@@ -86,7 +86,7 @@ if __name__ == "__main__":
             random_name = generate_random_name()
             print(random_name)
             data = machine_id + "," + str(now.strftime("%Y-%m-%d %H:%M:%S")) + "," +   str(random_number) +   "," + str(random_name) + "\n"
-            filename = 'add_file.txt'
+            filename = '/home/sachin/add_file.txt'
             write_to_file(filename,data)
         else:
             print("Could not determine machine ID.")
