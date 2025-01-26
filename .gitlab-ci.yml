@@ -5,3 +5,5 @@ build:
         - echo "Test Sachin First CICD"
         - echo "Test 2 Sachin"
         - python3 add_rnd.py
+    tags:
+        - dev
